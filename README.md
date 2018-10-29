@@ -22,7 +22,7 @@ in your wagtail page editor.
 pip install git+https://github.com/nhsuk/wagtail-smartquotes@0.1.0
 ```
 
-This package is a pre-release. When fully released it will be published to PyPi.
+This package is a pre-release. When fully released it will be published to PyPI.
 
 ### Add to your INSTALLED_APPS
 
