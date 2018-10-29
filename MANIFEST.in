@@ -1,1 +1,1 @@
-recursive-include wagtailsmartquotes/static/ *
+recursive-include wagtailsmartquotes/static *
