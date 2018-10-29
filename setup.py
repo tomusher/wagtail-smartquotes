@@ -10,7 +10,7 @@ TESTING_REQUIRES = [
 
 setup(
     name="wagtail-smartquotes",
-    version="0.1.0",
+    version="0.1.1",
     description="Smart quotes for Wagtail",
     author="Mike Monteith",
     author_email="<mike.monteith@nhs.net>",
