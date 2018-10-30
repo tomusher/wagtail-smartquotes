@@ -22,14 +22,14 @@ $(function() {
   };
 
   $('input[type="text"], textarea').on('input', function(event) {
-    $this = $(this);
+    var $this = $(this);
 
     //do nothing if input has a no-smartquotes class
     if ($this.hasClass("no-smartquotes")) {
       return;
     }
 
-    var value = $(this).val();
+    var value = $this.val();
 
     var newValue = smarten(value);
 
@@ -38,7 +38,7 @@ $(function() {
       var selectionStart = this.selectionStart;
       var selectionEnd = this.selectionEnd;
 
-      $(this).val(newValue);
+      $this.val(newValue);
 
       this.selectionStart = selectionStart;
       this.selectionEnd = selectionEnd;
